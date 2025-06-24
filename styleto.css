@@ -1,0 +1,76 @@
+.header {
+background-color: rgb(146, 180, 244);
+padding: 17px;
+text-align: center;
+}
+.header h1{
+    color:#435cfa;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 42px;
+}
+.formclass{
+    margin-top: 30px;
+    text-align: center;
+   
+}
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border: 1px solid cornflowerblue;
+  border-radius: 6px;
+}
+
+.bu {
+    margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(38, 107, 236);
+  color: white;
+  border:none;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.list{
+    list-style: none;
+    margin-top: 20px;
+   margin: 20px auto;
+    max-width: 500px;
+    width: 90%;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(146, 180, 244);
+  padding: 12px 16px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.check-task {
+  margin-right: 12px;
+  transform: scale(1.2);
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 18px;
+  color: rgb(38, 107, 236);
+  margin-left: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+}
+
+.delete-task {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: hotpink;
+  cursor: pointer;
+}
